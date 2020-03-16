@@ -1,7 +1,11 @@
 # EvilOSX_MacroGenerator
 Python3 script to generate Office macros for the EvilOSX framework (https://github.com/Marten4n6/EvilOSX)
 
-This script reads in an EvilOSX python launcher and creates a macro with either base64 encoding or hex encoding (based on the command line option specified). Therefore, you will need to pull down EvilOSX and have it drop the python launcher before running the macro generator. See steps below:
+This script reads in an EvilOSX python launcher and creates a macro with either base64 encoding or hex encoding (based on the command line option specified). Therefore, you will need to pull down EvilOSX and have it drop the python launcher before running the macro generator. See steps below.
+
+General usage:
+
+**python3 EvilOSX-macrogenerator.py -p <path_to_EvilOSX_python_payload> -e <"hex" or "b64">**
 
 Steps:
 
